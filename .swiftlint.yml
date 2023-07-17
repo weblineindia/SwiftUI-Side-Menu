@@ -1,0 +1,81 @@
+excluded:
+  - Pods
+
+swiftlint_version: 0.52.0
+
+opt_in_rules:
+  - anyobject_protocol
+  - file_header
+  - empty_string
+
+disabled_rules:
+  - multiple_closures_with_trailing_closure
+  - todo
+  - trailing_comma
+  - type_body_length
+  - comment_spacing
+  - empty_enum_arguments
+
+anyobject_protocol:
+  severity: error
+
+colon:
+  severity: error
+
+comma:
+  severity: error
+
+control_statement:
+  severity: error
+
+cyclomatic_complexity:
+  ignores_case_statements: true
+
+file_length:
+  error: 400
+
+function_body_length:
+  warning: 80
+  error: 120
+
+identifier_name:
+  min_length: 1
+
+line_length:
+  warning: 300
+  error: 600
+
+nesting:
+  type_level: 3
+
+opening_brace:
+  severity: error
+
+redundant_string_enum_value:
+  severity: error
+
+statement_position:
+  severity: error
+
+trailing_semicolon:
+  severity: error
+
+trailing_whitespace:
+  ignores_empty_lines: true
+  severity: error
+
+type_name:
+  excluded: ID
+
+unused_optional_binding:
+  severity: error
+
+vertical_parameter_alignment:
+  severity: error
+
+vertical_whitespace:
+  severity: error
+
+weak_delegate:
+  severity: error
+
