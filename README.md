@@ -3,7 +3,7 @@
 
 The Sidemenu feature allows you to implement a sidebar navigation menu in your iOS app, providing a convenient way for users to access various sections or functionalities of your application.
 
-## Table of Contents 
+## Table of Contents  
 
 - [Demo](#demo)
 - [Features](#features)
